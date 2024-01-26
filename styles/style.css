@@ -7,21 +7,27 @@ body {
   display: grid;
   place-items: center;
 }
-.white-line, .black-line {
+.white-line,
+.black-line {
   display: flex;
   align-items: center;
 }
 .white-box {
-  background-color: brown;
+  background-color: white;
+  width: 50px;
+  height: 50px;
+  color: black;
+}
+.black-box {
+  background-color: blue;
   width: 50px;
   height: 50px;
   color: white;
 }
-.black-box {
-  background-color: black;
-  width: 50px;
-  height: 50px;
-  color: white;
+.black-box,
+.white-box {
+  display: grid;
+  place-items: center;
 }
 .num-box {
   width: 50px;
@@ -44,4 +50,8 @@ body {
   height: 50px;
   box-sizing: border-box;
   padding: 4px;
+}
+.peice {
+  width: 30px;
+  height: 30px;
 }
