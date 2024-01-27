@@ -55,3 +55,6 @@ body {
   width: 30px;
   height: 30px;
 }
+.highlighted-box {
+  border: 2px solid red;
+}
